@@ -13,7 +13,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          <a href="https://folcademy.com/home">Hola Marquito!</a>
+          <a href="https://folcademy.com/home">Hola Mundo!</a>
         </h1>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Est ducimus, vero dignissimos molestiae doloribus sunt qui expedita, quasi ipsa temporibus dolor repellendus accusamus, a ab magnam nam tempora pariatur reprehenderit voluptates deleniti atque eius! Ipsa suscipit repellendus consequatur quod, ipsam expedita facilis in provident alias? Veniam repellendus quasi voluptatum. Beatae!          
