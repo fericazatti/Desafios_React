@@ -50,6 +50,10 @@
   text-align: center;
 }
 
+.Title{
+  display: flex;
+}
+
 .description {
   margin: 4rem 0;
   line-height: 1.5;
@@ -107,6 +111,7 @@
   height: 1em;
   margin-left: 0.5rem;
 }
+
 
 @media (max-width: 600px) {
   .grid {
