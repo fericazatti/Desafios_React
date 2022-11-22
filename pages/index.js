@@ -10,6 +10,8 @@ import Header from '../components/Header'
 export default function Home() {
   return (
     <div> 
+      <br></br>
+      <br></br>
       <FooterIcon />
     </div>
   ) 

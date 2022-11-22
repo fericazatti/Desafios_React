@@ -12,11 +12,11 @@ function Title() {
   return (    
     <div> 
             <Box
-                sx={{
-                    "& > :not(style)": {
-                    m: 1
-                    }
-                }}
+                // sx={{
+                //     "& > :not(style)": {
+                //     m: 0.1
+                //     }
+                // }}
             >
                 <HomeIcon color="secondary" />
             </Box>      
