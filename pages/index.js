@@ -10,8 +10,20 @@ import Header from '../components/Header'
 export default function Home() {
   return (
     <div> 
-      <br></br>
-      <br></br>
+      <main>
+        <section>
+          <h1>React app</h1>
+          <p>informacion del proyecto</p>
+        </section>
+        <section>
+          <h1>Resultados</h1>
+          <p>Visualización de los datos</p>
+        </section>
+        <section>
+          <h1>Contacto</h1>
+          <p>Información de contacto</p>
+        </section>
+      </main>
       <FooterIcon />
     </div>
   ) 
