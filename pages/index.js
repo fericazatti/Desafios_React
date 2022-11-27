@@ -6,19 +6,27 @@ import Title from '../components/Title'
 import { Button } from '@mui/material'
 import FooterIcon from '../components/FooterIcon'
 import Header from '../components/Header'
+import Card_1 from '../components/Card_1'
+import { StyledEngineProvider } from '@mui/material/styles';
 
+// sas
 
 export default function Home() {
   return (
     <div> 
       <main>
-        <section>
-          <h1>React app</h1>
-          <p>informacion del proyecto</p>
+      <section class="hero">
+            <div class="hero-inner">
+                <h1>My awesome website</h1>
+                <h2>Look at this website and bask in its amazing glory!</h2>
+                <a href="https://example.com/" class="btn">Go ahead...</a>
+            </div>
         </section>
-        <section>
-          <h1>Resultados</h1>
-          <p>Visualización de los datos</p>
+        <section class="card">
+          {/* <StyledEngineProvider injectFirst> */}
+            <Card_1 />          
+          {/* </StyledEngineProvider> */}
+          
         </section>
         <section>
           <h1>Contacto</h1>
