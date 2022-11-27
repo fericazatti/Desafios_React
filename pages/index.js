@@ -7,6 +7,7 @@ import { Button } from '@mui/material'
 import FooterIcon from '../components/FooterIcon'
 import Header from '../components/Header'
 
+
 export default function Home() {
   return (
     <div> 
@@ -22,6 +23,7 @@ export default function Home() {
         <section>
           <h1>Contacto</h1>
           <p>Información de contacto</p>
+          
         </section>
       </main>
       <FooterIcon />
