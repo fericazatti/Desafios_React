@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Odia:wdth,wght@89,513&display=swap');
+
 body {
     margin: 0;
     font-family: sans-serif;
@@ -5,8 +8,8 @@ body {
 
 .hero {
     /* Sizing */
-    width: 100vw;
-    height: 100vh;
+    width: auto;
+    height: 80vh;
     
     /* Flexbox stuff */
     display: flex;
@@ -27,8 +30,9 @@ body {
 
 .hero h1 {
     /* Text styles */
-    font-size: 5em;
-    
+    font-size: 4.5em;
+    font-family: 'Anek Odia', sans-serif;
+    /* font-family: 'Bakbak One', cursive; */
     /* Margins */
     margin-top: 0;
     margin-bottom: 0.5em;
@@ -65,3 +69,41 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+.navbar-brand{
+    font-family: 'Secular One', sans-serif;
+    font-size: 32px;
+    color: #353553;
+    text-shadow: 0.1px  0px 0px #353535,
+    0px  0.1px 0px #1a3c27,
+   -0.5px  0px 0px #0d8c46,
+    0px -0.1px 0px #353535;
+    /* text-shadow: 4px 4px 4px #aaa; */
+}
+
+.custom-overlay__caption {
+    background-color: rgba(0, 0, 0, 0.8);
+    max-height: 240px;
+    overflow: hidden;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    padding: 2px;
+    font-size: 90%;
+  }
+  
+  .custom-overlay__tag {
+    word-wrap: break-word;
+    display: inline-block;
+    background-color: white;
+    height: auto;
+    font-size: 75%;
+    font-weight: 600;
+    line-height: 1;
+    padding: .2em .6em .3em;
+    border-radius: .25em;
+    color: black;
+    vertical-align: baseline;
+    margin: 2px;
+  }

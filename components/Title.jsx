@@ -8,21 +8,19 @@ function Title() {
    const HomeIcon = createSvgIcon(
     <path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z" />,
     "Home"
-  );  
-  return (    
+    );  
+
+return (    
     <div> 
             <Box
-                // sx={{
-                //     "& > :not(style)": {
-                //     m: 0.1
-                //     }
-                // }}
+                sx={{
+                    "& > :not(style)": {
+                    m: -0.1
+                    }
+                }}
             >
-                <HomeIcon color="secondary" />
+                <HomeIcon color="disabled" />
             </Box>      
-            {/* <Box>
-                <h1>{App}</h1>
-            </Box>         */}
     </div>
   )
 }
