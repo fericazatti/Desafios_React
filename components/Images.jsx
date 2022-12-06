@@ -14,10 +14,9 @@ const images = [
        height: 212,
        customOverlay: (
         <div className="custom-overlay__caption">
-          <div>"Es inaceptable que sigan existiendo 7 millones de muertes evitables e innumerables años de buena salud perdidos debido a la contaminación del aire" - Dra. Maria Neira (OMS)</div>
+          <div>&quot;Es inaceptable que sigan existiendo 7 millones de muertes evitables e innumerables años de buena salud perdidos debido a la contaminación del aire&quot; - Dra. Maria Neira (OMS)</div>
         </div>
-      ),    
-      caption: "After Rain (Jeshu John - designerspics.com)",     
+      ),          
     },
     {
       src: source[2],
