@@ -8,7 +8,7 @@ body {
 
 .hero {
     /* Sizing */
-    width: 98vw;
+    width: auto;
     height: 80vh;
     
     /* Flexbox stuff */
@@ -21,7 +21,7 @@ body {
     color: white;
     
     /* Background styles */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('../public/hero.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('../public/gallery/hero.jpg');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
