@@ -8,7 +8,7 @@ body {
 
 .hero {
     /* Sizing */
-    width: auto;
+    width: 98vw;
     height: 80vh;
     
     /* Flexbox stuff */
